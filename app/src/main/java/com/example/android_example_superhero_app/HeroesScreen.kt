@@ -76,7 +76,7 @@ fun HeroScreen(
 @Preview(showBackground = true)
 @Composable
 fun HeroScreenPreview() {
-    AndroidexamplesuperheroappTheme {
+    AndroidexamplesuperheroappTheme (darkTheme = true) {
         HeroScreen(hero = heroes[1])
     }
 }

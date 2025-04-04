@@ -58,7 +58,7 @@ fun HeroApp() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    AndroidexamplesuperheroappTheme {
+    AndroidexamplesuperheroappTheme (darkTheme = false) {
         HeroApp()
     }
 }
